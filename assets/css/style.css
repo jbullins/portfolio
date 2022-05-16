@@ -27,7 +27,7 @@ header h1{
 
 header a{
     text-decoration: none;
-    color: slategray;
+    color: black;
 }
 
 header nav{
@@ -84,6 +84,35 @@ header nav ul li a{
     width: 50%;
 }
 
-.move-text{
+.flex-row{
+    display: flex;
+    justify-content: left;
+}
+.move-info{
     flex: 25;
+    font-size: 20px;
+}
+
+.border1{
+    border-right: 5px solid black;
+    height: 100px;
+}
+
+.my-contact ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 25px;
+    width: 100%;
+}
+
+.my-contact ul li a{
+    margin: 0 30px;
+    font-size: 20px;
+    color: cadetblue;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
 }
