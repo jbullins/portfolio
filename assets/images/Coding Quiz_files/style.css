@@ -1,0 +1,14 @@
+ body{
+     background-color: whitesmoke;
+ }
+ h1{
+     color: blueviolet;
+ }
+
+ .info-box{
+     text-align: center;
+ }
+ .start-btn{
+     text-align: center;
+     color: purple;
+ }
